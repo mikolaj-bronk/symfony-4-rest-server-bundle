@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository\Items;
+namespace Bronk\RestBundle\Repository\Items;
 
 use Bronk\RestBundle\Repository\ItemsRepository;
 
