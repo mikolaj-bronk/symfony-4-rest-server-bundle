@@ -1,0 +1,13 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Bronk\RestBundle\:
+        resource: '../../*'
+        exclude: '../../{Entity,Migrations,Tests,Kernel.php}'
+
+    Bronk\RestBundle\Controller\:
+        resource: '../../Controller'
+        tags: ['controller.service_arguments']
