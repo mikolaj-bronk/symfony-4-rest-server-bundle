@@ -34,7 +34,8 @@
     "symfony/web-link": "^4.1",
     "symfony/webpack-encore-pack": "*",
     "symfony/yaml": "^4.1",
-    "doctrine/orm": "^2.5"
+    "doctrine/orm": "^2.5",
+    "symfony/dependency-injection": "^4.1"
 
   },
   "require-dev": {
